@@ -3,7 +3,7 @@ const ProductCard = (props) => {
 	return (
 		<article className='my-4 w-64 bg-white rounded-lg overflow-hidden shadow-lg flex-shrink-0'>
 			<div className='h-40 overflow-hidden relative'>
-				<img className="absolute inset-1/2 transform -translate-x-1/2 -translate-y-1/2" src={image} alt="breakfast sandwich" />
+				<img className="absolute inset-1/2 transform -translate-x-1/2 -translate-y-1/2" src={image} alt={name} />
 			</div>
 			<div className="p-2">
 				<h3 className='uppercase text-center tracking-wider text-xl border-b-2 border-yellow-300 pb-1 mb-3'>{name}</h3>
